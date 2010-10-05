@@ -16,7 +16,7 @@ public class problem5 {
 		int i = 1;
 		int j=0;
 		CurrentTimeAndDate dt = new CurrentTimeAndDate();
-		System.out.println(dt.main());
+		System.out.println(dt.get());
 		while(true){
 			boolean state=true;
 			for(j=1;j<20;j++){
@@ -32,7 +32,7 @@ public class problem5 {
 			}
 			++i;
 		}
-		System.out.println(dt.main());
+		System.out.println(dt.get());
 	}
 
 }
